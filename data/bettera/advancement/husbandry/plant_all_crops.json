@@ -1,0 +1,150 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wheat"
+        },
+        "title": {
+            "translate": "bettera.advancement.husbandry.plant_all_crops.title",
+            "fallback": "Master Farmer"
+        },
+        "description": {
+            "text": "Plant every type of Crop"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+        "plantedwheat": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:wheat",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "plantedbeets": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:beetroots",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "plantedmelon": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:melon_stem",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "plantedcarrots": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:carrots",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "plantedpumpkin": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:pumpkin_stem",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "plantedpotatoes": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:potatoes",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "plantedsugarcane": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:sugar_cane",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "plantedberries": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:sweet_berry_bush",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "plantedwheat"
+        ],
+        [
+            "plantedbeets"
+        ],
+        [
+            "plantedberries"
+        ],
+        [
+            "plantedcarrots"
+        ],
+        [
+            "plantedmelon"
+        ],
+        [
+            "plantedpotatoes"
+        ],
+        [
+            "plantedpumpkin"
+        ],
+        [
+            "plantedsugarcane"
+        ],
+        [
+            "plantedberries"
+        ]
+    ],
+    "rewards": {
+        "experience": 200,
+        "function": "bettera:counter/husbandry/advancement_up_challenge"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:glow_ink_sac"
+        },
+        "title": {
+            "translate": "advancements.husbandry.make_a_sign_glow.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.make_a_sign_glow.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "bettera:husbandry/place_sign",
+    "criteria": {
+        "make_a_sign_glow": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:all_signs"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:glow_ink_sac"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "make_a_sign_glow"
+        ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    }
+}

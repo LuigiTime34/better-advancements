@@ -1,0 +1,2756 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:red_bundle"
+        },
+        "title": {
+            "translate": "bettera.advancement.husbandry.dye_hard.title",
+            "fallback": "Dye Hard"
+        },
+        "description": {
+            "text": "Collect all 16 variants of every colored item and block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "black_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_banner"
+                    }
+                ]
+            }
+        },
+        "black_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_bed"
+                    }
+                ]
+            }
+        },
+        "black_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_bundle"
+                    }
+                ]
+            }
+        },
+        "black_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_candle"
+                    }
+                ]
+            }
+        },
+        "black_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_carpet"
+                    }
+                ]
+            }
+        },
+        "black_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_concrete"
+                    }
+                ]
+            }
+        },
+        "black_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "black_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_dye"
+                    }
+                ]
+            }
+        },
+        "black_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "black_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_shulker_box"
+                    }
+                ]
+            }
+        },
+        "black_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_stained_glass"
+                    }
+                ]
+            }
+        },
+        "black_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "black_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_terracotta"
+                    }
+                ]
+            }
+        },
+        "black_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_wool"
+                    }
+                ]
+            }
+        },
+        "blue_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_banner"
+                    }
+                ]
+            }
+        },
+        "blue_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_bed"
+                    }
+                ]
+            }
+        },
+        "blue_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_bundle"
+                    }
+                ]
+            }
+        },
+        "blue_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_candle"
+                    }
+                ]
+            }
+        },
+        "blue_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_carpet"
+                    }
+                ]
+            }
+        },
+        "blue_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_concrete"
+                    }
+                ]
+            }
+        },
+        "blue_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "blue_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_dye"
+                    }
+                ]
+            }
+        },
+        "blue_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "blue_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_shulker_box"
+                    }
+                ]
+            }
+        },
+        "blue_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_stained_glass"
+                    }
+                ]
+            }
+        },
+        "blue_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "blue_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_terracotta"
+                    }
+                ]
+            }
+        },
+        "blue_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_wool"
+                    }
+                ]
+            }
+        },
+        "brown_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_banner"
+                    }
+                ]
+            }
+        },
+        "brown_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_bed"
+                    }
+                ]
+            }
+        },
+        "brown_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_bundle"
+                    }
+                ]
+            }
+        },
+        "brown_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_candle"
+                    }
+                ]
+            }
+        },
+        "brown_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_carpet"
+                    }
+                ]
+            }
+        },
+        "brown_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_concrete"
+                    }
+                ]
+            }
+        },
+        "brown_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "brown_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_dye"
+                    }
+                ]
+            }
+        },
+        "brown_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "brown_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_shulker_box"
+                    }
+                ]
+            }
+        },
+        "brown_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_stained_glass"
+                    }
+                ]
+            }
+        },
+        "brown_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "brown_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_terracotta"
+                    }
+                ]
+            }
+        },
+        "brown_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:brown_wool"
+                    }
+                ]
+            }
+        },
+        "cyan_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_banner"
+                    }
+                ]
+            }
+        },
+        "cyan_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_bed"
+                    }
+                ]
+            }
+        },
+        "cyan_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_bundle"
+                    }
+                ]
+            }
+        },
+        "cyan_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_candle"
+                    }
+                ]
+            }
+        },
+        "cyan_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_carpet"
+                    }
+                ]
+            }
+        },
+        "cyan_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_concrete"
+                    }
+                ]
+            }
+        },
+        "cyan_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "cyan_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_dye"
+                    }
+                ]
+            }
+        },
+        "cyan_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "cyan_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_shulker_box"
+                    }
+                ]
+            }
+        },
+        "cyan_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_stained_glass"
+                    }
+                ]
+            }
+        },
+        "cyan_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "cyan_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_terracotta"
+                    }
+                ]
+            }
+        },
+        "cyan_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cyan_wool"
+                    }
+                ]
+            }
+        },
+        "gray_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_banner"
+                    }
+                ]
+            }
+        },
+        "gray_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_bed"
+                    }
+                ]
+            }
+        },
+        "gray_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_bundle"
+                    }
+                ]
+            }
+        },
+        "gray_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_candle"
+                    }
+                ]
+            }
+        },
+        "gray_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_carpet"
+                    }
+                ]
+            }
+        },
+        "gray_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_concrete"
+                    }
+                ]
+            }
+        },
+        "gray_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "gray_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_dye"
+                    }
+                ]
+            }
+        },
+        "gray_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "gray_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_shulker_box"
+                    }
+                ]
+            }
+        },
+        "gray_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_stained_glass"
+                    }
+                ]
+            }
+        },
+        "gray_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "gray_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_terracotta"
+                    }
+                ]
+            }
+        },
+        "gray_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gray_wool"
+                    }
+                ]
+            }
+        },
+        "green_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_banner"
+                    }
+                ]
+            }
+        },
+        "green_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_bed"
+                    }
+                ]
+            }
+        },
+        "green_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_bundle"
+                    }
+                ]
+            }
+        },
+        "green_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_candle"
+                    }
+                ]
+            }
+        },
+        "green_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_carpet"
+                    }
+                ]
+            }
+        },
+        "green_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_concrete"
+                    }
+                ]
+            }
+        },
+        "green_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "green_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_dye"
+                    }
+                ]
+            }
+        },
+        "green_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "green_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_shulker_box"
+                    }
+                ]
+            }
+        },
+        "green_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_stained_glass"
+                    }
+                ]
+            }
+        },
+        "green_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "green_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_terracotta"
+                    }
+                ]
+            }
+        },
+        "green_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:green_wool"
+                    }
+                ]
+            }
+        },
+        "light_blue_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_banner"
+                    }
+                ]
+            }
+        },
+        "light_blue_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_bed"
+                    }
+                ]
+            }
+        },
+        "light_blue_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_bundle"
+                    }
+                ]
+            }
+        },
+        "light_blue_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_candle"
+                    }
+                ]
+            }
+        },
+        "light_blue_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_carpet"
+                    }
+                ]
+            }
+        },
+        "light_blue_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_concrete"
+                    }
+                ]
+            }
+        },
+        "light_blue_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "light_blue_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_dye"
+                    }
+                ]
+            }
+        },
+        "light_blue_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "light_blue_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_shulker_box"
+                    }
+                ]
+            }
+        },
+        "light_blue_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_stained_glass"
+                    }
+                ]
+            }
+        },
+        "light_blue_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "light_blue_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_terracotta"
+                    }
+                ]
+            }
+        },
+        "light_blue_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_blue_wool"
+                    }
+                ]
+            }
+        },
+        "light_gray_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_banner"
+                    }
+                ]
+            }
+        },
+        "light_gray_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_bed"
+                    }
+                ]
+            }
+        },
+        "light_gray_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_bundle"
+                    }
+                ]
+            }
+        },
+        "light_gray_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_candle"
+                    }
+                ]
+            }
+        },
+        "light_gray_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_carpet"
+                    }
+                ]
+            }
+        },
+        "light_gray_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_concrete"
+                    }
+                ]
+            }
+        },
+        "light_gray_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "light_gray_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_dye"
+                    }
+                ]
+            }
+        },
+        "light_gray_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "light_gray_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_shulker_box"
+                    }
+                ]
+            }
+        },
+        "light_gray_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_stained_glass"
+                    }
+                ]
+            }
+        },
+        "light_gray_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "light_gray_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_terracotta"
+                    }
+                ]
+            }
+        },
+        "light_gray_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:light_gray_wool"
+                    }
+                ]
+            }
+        },
+        "lime_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_banner"
+                    }
+                ]
+            }
+        },
+        "lime_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_bed"
+                    }
+                ]
+            }
+        },
+        "lime_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_bundle"
+                    }
+                ]
+            }
+        },
+        "lime_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_candle"
+                    }
+                ]
+            }
+        },
+        "lime_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_carpet"
+                    }
+                ]
+            }
+        },
+        "lime_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_concrete"
+                    }
+                ]
+            }
+        },
+        "lime_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "lime_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_dye"
+                    }
+                ]
+            }
+        },
+        "lime_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "lime_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_shulker_box"
+                    }
+                ]
+            }
+        },
+        "lime_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_stained_glass"
+                    }
+                ]
+            }
+        },
+        "lime_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "lime_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_terracotta"
+                    }
+                ]
+            }
+        },
+        "lime_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lime_wool"
+                    }
+                ]
+            }
+        },
+        "magenta_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_banner"
+                    }
+                ]
+            }
+        },
+        "magenta_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_bed"
+                    }
+                ]
+            }
+        },
+        "magenta_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_bundle"
+                    }
+                ]
+            }
+        },
+        "magenta_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_candle"
+                    }
+                ]
+            }
+        },
+        "magenta_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_carpet"
+                    }
+                ]
+            }
+        },
+        "magenta_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_concrete"
+                    }
+                ]
+            }
+        },
+        "magenta_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "magenta_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_dye"
+                    }
+                ]
+            }
+        },
+        "magenta_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "magenta_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_shulker_box"
+                    }
+                ]
+            }
+        },
+        "magenta_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_stained_glass"
+                    }
+                ]
+            }
+        },
+        "magenta_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "magenta_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_terracotta"
+                    }
+                ]
+            }
+        },
+        "magenta_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magenta_wool"
+                    }
+                ]
+            }
+        },
+        "orange_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_banner"
+                    }
+                ]
+            }
+        },
+        "orange_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_bed"
+                    }
+                ]
+            }
+        },
+        "orange_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_bundle"
+                    }
+                ]
+            }
+        },
+        "orange_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_candle"
+                    }
+                ]
+            }
+        },
+        "orange_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_carpet"
+                    }
+                ]
+            }
+        },
+        "orange_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_concrete"
+                    }
+                ]
+            }
+        },
+        "orange_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "orange_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_dye"
+                    }
+                ]
+            }
+        },
+        "orange_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "orange_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_shulker_box"
+                    }
+                ]
+            }
+        },
+        "orange_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_stained_glass"
+                    }
+                ]
+            }
+        },
+        "orange_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "orange_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_terracotta"
+                    }
+                ]
+            }
+        },
+        "orange_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_wool"
+                    }
+                ]
+            }
+        },
+        "pink_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_banner"
+                    }
+                ]
+            }
+        },
+        "pink_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_bed"
+                    }
+                ]
+            }
+        },
+        "pink_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_bundle"
+                    }
+                ]
+            }
+        },
+        "pink_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_candle"
+                    }
+                ]
+            }
+        },
+        "pink_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_carpet"
+                    }
+                ]
+            }
+        },
+        "pink_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_concrete"
+                    }
+                ]
+            }
+        },
+        "pink_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "pink_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_dye"
+                    }
+                ]
+            }
+        },
+        "pink_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "pink_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_shulker_box"
+                    }
+                ]
+            }
+        },
+        "pink_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_stained_glass"
+                    }
+                ]
+            }
+        },
+        "pink_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "pink_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_terracotta"
+                    }
+                ]
+            }
+        },
+        "pink_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_wool"
+                    }
+                ]
+            }
+        },
+        "purple_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_banner"
+                    }
+                ]
+            }
+        },
+        "purple_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_bed"
+                    }
+                ]
+            }
+        },
+        "purple_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_bundle"
+                    }
+                ]
+            }
+        },
+        "purple_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_candle"
+                    }
+                ]
+            }
+        },
+        "purple_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_carpet"
+                    }
+                ]
+            }
+        },
+        "purple_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_concrete"
+                    }
+                ]
+            }
+        },
+        "purple_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "purple_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_dye"
+                    }
+                ]
+            }
+        },
+        "purple_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "purple_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_shulker_box"
+                    }
+                ]
+            }
+        },
+        "purple_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_stained_glass"
+                    }
+                ]
+            }
+        },
+        "purple_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "purple_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_terracotta"
+                    }
+                ]
+            }
+        },
+        "purple_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_wool"
+                    }
+                ]
+            }
+        },
+        "red_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_banner"
+                    }
+                ]
+            }
+        },
+        "red_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_bed"
+                    }
+                ]
+            }
+        },
+        "red_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_bundle"
+                    }
+                ]
+            }
+        },
+        "red_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_candle"
+                    }
+                ]
+            }
+        },
+        "red_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_carpet"
+                    }
+                ]
+            }
+        },
+        "red_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_concrete"
+                    }
+                ]
+            }
+        },
+        "red_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "red_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_dye"
+                    }
+                ]
+            }
+        },
+        "red_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "red_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_shulker_box"
+                    }
+                ]
+            }
+        },
+        "red_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_stained_glass"
+                    }
+                ]
+            }
+        },
+        "red_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "red_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_terracotta"
+                    }
+                ]
+            }
+        },
+        "red_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_wool"
+                    }
+                ]
+            }
+        },
+        "white_banner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_banner"
+                    }
+                ]
+            }
+        },
+        "white_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_bed"
+                    }
+                ]
+            }
+        },
+        "white_bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_bundle"
+                    }
+                ]
+            }
+        },
+        "white_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_candle"
+                    }
+                ]
+            }
+        },
+        "white_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_carpet"
+                    }
+                ]
+            }
+        },
+        "white_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_concrete"
+                    }
+                ]
+            }
+        },
+        "white_concrete_powder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "white_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_dye"
+                    }
+                ]
+            }
+        },
+        "white_glazed_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_glazed_terracotta"
+                    }
+                ]
+            }
+        },
+        "white_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_shulker_box"
+                    }
+                ]
+            }
+        },
+        "white_stained_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_stained_glass"
+                    }
+                ]
+            }
+        },
+        "white_stained_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_stained_glass_pane"
+                    }
+                ]
+            }
+        },
+        "white_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_terracotta"
+                    }
+                ]
+            }
+        },
+        "white_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_wool"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "black_banner"
+        ],
+        [
+            "black_bed"
+        ],
+        [
+            "black_bundle"
+        ],
+        [
+            "black_candle"
+        ],
+        [
+            "black_carpet"
+        ],
+        [
+            "black_concrete"
+        ],
+        [
+            "black_concrete_powder"
+        ],
+        [
+            "black_dye"
+        ],
+        [
+            "black_glazed_terracotta"
+        ],
+        [
+            "black_shulker_box"
+        ],
+        [
+            "black_stained_glass"
+        ],
+        [
+            "black_stained_glass_pane"
+        ],
+        [
+            "black_terracotta"
+        ],
+        [
+            "black_wool"
+        ],
+        [
+            "blue_banner"
+        ],
+        [
+            "blue_bed"
+        ],
+        [
+            "blue_bundle"
+        ],
+        [
+            "blue_candle"
+        ],
+        [
+            "blue_carpet"
+        ],
+        [
+            "blue_concrete"
+        ],
+        [
+            "blue_concrete_powder"
+        ],
+        [
+            "blue_dye"
+        ],
+        [
+            "blue_glazed_terracotta"
+        ],
+        [
+            "blue_shulker_box"
+        ],
+        [
+            "blue_stained_glass"
+        ],
+        [
+            "blue_stained_glass_pane"
+        ],
+        [
+            "blue_terracotta"
+        ],
+        [
+            "blue_wool"
+        ],
+        [
+            "brown_banner"
+        ],
+        [
+            "brown_bed"
+        ],
+        [
+            "brown_bundle"
+        ],
+        [
+            "brown_candle"
+        ],
+        [
+            "brown_carpet"
+        ],
+        [
+            "brown_concrete"
+        ],
+        [
+            "brown_concrete_powder"
+        ],
+        [
+            "brown_dye"
+        ],
+        [
+            "brown_glazed_terracotta"
+        ],
+        [
+            "brown_shulker_box"
+        ],
+        [
+            "brown_stained_glass"
+        ],
+        [
+            "brown_stained_glass_pane"
+        ],
+        [
+            "brown_terracotta"
+        ],
+        [
+            "brown_wool"
+        ],
+        [
+            "cyan_banner"
+        ],
+        [
+            "cyan_bed"
+        ],
+        [
+            "cyan_bundle"
+        ],
+        [
+            "cyan_candle"
+        ],
+        [
+            "cyan_carpet"
+        ],
+        [
+            "cyan_concrete"
+        ],
+        [
+            "cyan_concrete_powder"
+        ],
+        [
+            "cyan_dye"
+        ],
+        [
+            "cyan_glazed_terracotta"
+        ],
+        [
+            "cyan_shulker_box"
+        ],
+        [
+            "cyan_stained_glass"
+        ],
+        [
+            "cyan_stained_glass_pane"
+        ],
+        [
+            "cyan_terracotta"
+        ],
+        [
+            "cyan_wool"
+        ],
+        [
+            "gray_banner"
+        ],
+        [
+            "gray_bed"
+        ],
+        [
+            "gray_bundle"
+        ],
+        [
+            "gray_candle"
+        ],
+        [
+            "gray_carpet"
+        ],
+        [
+            "gray_concrete"
+        ],
+        [
+            "gray_concrete_powder"
+        ],
+        [
+            "gray_dye"
+        ],
+        [
+            "gray_glazed_terracotta"
+        ],
+        [
+            "gray_shulker_box"
+        ],
+        [
+            "gray_stained_glass"
+        ],
+        [
+            "gray_stained_glass_pane"
+        ],
+        [
+            "gray_terracotta"
+        ],
+        [
+            "gray_wool"
+        ],
+        [
+            "green_banner"
+        ],
+        [
+            "green_bed"
+        ],
+        [
+            "green_bundle"
+        ],
+        [
+            "green_candle"
+        ],
+        [
+            "green_carpet"
+        ],
+        [
+            "green_concrete"
+        ],
+        [
+            "green_concrete_powder"
+        ],
+        [
+            "green_dye"
+        ],
+        [
+            "green_glazed_terracotta"
+        ],
+        [
+            "green_shulker_box"
+        ],
+        [
+            "green_stained_glass"
+        ],
+        [
+            "green_stained_glass_pane"
+        ],
+        [
+            "green_terracotta"
+        ],
+        [
+            "green_wool"
+        ],
+        [
+            "light_blue_banner"
+        ],
+        [
+            "light_blue_bed"
+        ],
+        [
+            "light_blue_bundle"
+        ],
+        [
+            "light_blue_candle"
+        ],
+        [
+            "light_blue_carpet"
+        ],
+        [
+            "light_blue_concrete"
+        ],
+        [
+            "light_blue_concrete_powder"
+        ],
+        [
+            "light_blue_dye"
+        ],
+        [
+            "light_blue_glazed_terracotta"
+        ],
+        [
+            "light_blue_shulker_box"
+        ],
+        [
+            "light_blue_stained_glass"
+        ],
+        [
+            "light_blue_stained_glass_pane"
+        ],
+        [
+            "light_blue_terracotta"
+        ],
+        [
+            "light_blue_wool"
+        ],
+        [
+            "light_gray_banner"
+        ],
+        [
+            "light_gray_bed"
+        ],
+        [
+            "light_gray_bundle"
+        ],
+        [
+            "light_gray_candle"
+        ],
+        [
+            "light_gray_carpet"
+        ],
+        [
+            "light_gray_concrete"
+        ],
+        [
+            "light_gray_concrete_powder"
+        ],
+        [
+            "light_gray_dye"
+        ],
+        [
+            "light_gray_glazed_terracotta"
+        ],
+        [
+            "light_gray_shulker_box"
+        ],
+        [
+            "light_gray_stained_glass"
+        ],
+        [
+            "light_gray_stained_glass_pane"
+        ],
+        [
+            "light_gray_terracotta"
+        ],
+        [
+            "light_gray_wool"
+        ],
+        [
+            "lime_banner"
+        ],
+        [
+            "lime_bed"
+        ],
+        [
+            "lime_bundle"
+        ],
+        [
+            "lime_candle"
+        ],
+        [
+            "lime_carpet"
+        ],
+        [
+            "lime_concrete"
+        ],
+        [
+            "lime_concrete_powder"
+        ],
+        [
+            "lime_dye"
+        ],
+        [
+            "lime_glazed_terracotta"
+        ],
+        [
+            "lime_shulker_box"
+        ],
+        [
+            "lime_stained_glass"
+        ],
+        [
+            "lime_stained_glass_pane"
+        ],
+        [
+            "lime_terracotta"
+        ],
+        [
+            "lime_wool"
+        ],
+        [
+            "magenta_banner"
+        ],
+        [
+            "magenta_bed"
+        ],
+        [
+            "magenta_bundle"
+        ],
+        [
+            "magenta_candle"
+        ],
+        [
+            "magenta_carpet"
+        ],
+        [
+            "magenta_concrete"
+        ],
+        [
+            "magenta_concrete_powder"
+        ],
+        [
+            "magenta_dye"
+        ],
+        [
+            "magenta_glazed_terracotta"
+        ],
+        [
+            "magenta_shulker_box"
+        ],
+        [
+            "magenta_stained_glass"
+        ],
+        [
+            "magenta_stained_glass_pane"
+        ],
+        [
+            "magenta_terracotta"
+        ],
+        [
+            "magenta_wool"
+        ],
+        [
+            "orange_banner"
+        ],
+        [
+            "orange_bed"
+        ],
+        [
+            "orange_bundle"
+        ],
+        [
+            "orange_candle"
+        ],
+        [
+            "orange_carpet"
+        ],
+        [
+            "orange_concrete"
+        ],
+        [
+            "orange_concrete_powder"
+        ],
+        [
+            "orange_dye"
+        ],
+        [
+            "orange_glazed_terracotta"
+        ],
+        [
+            "orange_shulker_box"
+        ],
+        [
+            "orange_stained_glass"
+        ],
+        [
+            "orange_stained_glass_pane"
+        ],
+        [
+            "orange_terracotta"
+        ],
+        [
+            "orange_wool"
+        ],
+        [
+            "pink_banner"
+        ],
+        [
+            "pink_bed"
+        ],
+        [
+            "pink_bundle"
+        ],
+        [
+            "pink_candle"
+        ],
+        [
+            "pink_carpet"
+        ],
+        [
+            "pink_concrete"
+        ],
+        [
+            "pink_concrete_powder"
+        ],
+        [
+            "pink_dye"
+        ],
+        [
+            "pink_glazed_terracotta"
+        ],
+        [
+            "pink_shulker_box"
+        ],
+        [
+            "pink_stained_glass"
+        ],
+        [
+            "pink_stained_glass_pane"
+        ],
+        [
+            "pink_terracotta"
+        ],
+        [
+            "pink_wool"
+        ],
+        [
+            "purple_banner"
+        ],
+        [
+            "purple_bed"
+        ],
+        [
+            "purple_bundle"
+        ],
+        [
+            "purple_candle"
+        ],
+        [
+            "purple_carpet"
+        ],
+        [
+            "purple_concrete"
+        ],
+        [
+            "purple_concrete_powder"
+        ],
+        [
+            "purple_dye"
+        ],
+        [
+            "purple_glazed_terracotta"
+        ],
+        [
+            "purple_shulker_box"
+        ],
+        [
+            "purple_stained_glass"
+        ],
+        [
+            "purple_stained_glass_pane"
+        ],
+        [
+            "purple_terracotta"
+        ],
+        [
+            "purple_wool"
+        ],
+        [
+            "red_banner"
+        ],
+        [
+            "red_bed"
+        ],
+        [
+            "red_bundle"
+        ],
+        [
+            "red_candle"
+        ],
+        [
+            "red_carpet"
+        ],
+        [
+            "red_concrete"
+        ],
+        [
+            "red_concrete_powder"
+        ],
+        [
+            "red_dye"
+        ],
+        [
+            "red_glazed_terracotta"
+        ],
+        [
+            "red_shulker_box"
+        ],
+        [
+            "red_stained_glass"
+        ],
+        [
+            "red_stained_glass_pane"
+        ],
+        [
+            "red_terracotta"
+        ],
+        [
+            "red_wool"
+        ],
+        [
+            "white_banner"
+        ],
+        [
+            "white_bed"
+        ],
+        [
+            "white_bundle"
+        ],
+        [
+            "white_candle"
+        ],
+        [
+            "white_carpet"
+        ],
+        [
+            "white_concrete"
+        ],
+        [
+            "white_concrete_powder"
+        ],
+        [
+            "white_dye"
+        ],
+        [
+            "white_glazed_terracotta"
+        ],
+        [
+            "white_shulker_box"
+        ],
+        [
+            "white_stained_glass"
+        ],
+        [
+            "white_stained_glass_pane"
+        ],
+        [
+            "white_terracotta"
+        ],
+        [
+            "white_wool"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_challenge"
+    }
+}

@@ -1,0 +1,1 @@
+$scoreboard objectives modify advancement_count displayname {"text": "$(name)","color":"$(color)","bold": $(bold),"italic": $(italic),"underlined": $(underline)}

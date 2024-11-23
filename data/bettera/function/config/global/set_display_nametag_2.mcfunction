@@ -1,0 +1,3 @@
+scoreboard players set #ShowCounterNametag advancement.config 2
+scoreboard objectives setdisplay below_name advancement_count
+function bettera:config/global/global_settings

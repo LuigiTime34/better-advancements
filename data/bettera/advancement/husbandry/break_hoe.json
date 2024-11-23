@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_hoe"
+        },
+        "title": {
+            "translate": "bettera.advancement.husbandry.break_hoe.title",
+            "fallback": "Serious, SERIOUS Dedication"
+        },
+        "description": {
+            "text": "Break a Netherite Hoe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:husbandry/obtain_netherite_hoe",
+    "criteria": {
+        "break_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": 0,
+                "item": {
+                    "items": [
+                        "minecraft:netherite_hoe"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "break_hoe"
+        ]
+    ],
+    "rewards": {
+        "experience": 250,
+        "function": "bettera:counter/husbandry/advancement_up_challenge"
+    }
+}

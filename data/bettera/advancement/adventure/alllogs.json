@@ -1,0 +1,204 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_log"
+        },
+        "title": {
+            "translate": "bettera.advancement.adventure.alllogs.title",
+            "fallback": "Exotic Lumberjack"
+        },
+        "description": {
+            "text": "Collect a stack of every type of log"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "woodoak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {},
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:oak_log"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodbirch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:birch_log"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodspruce": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:spruce_log"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodacacia": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:acacia_log"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodjungle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:jungle_log"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodcherry": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cherry_log"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "wooddarkoak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:dark_oak_log"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodwarped": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_stem"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodcrimson": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:crimson_stem"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodbamboo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bamboo_block"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "woodmangrove": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:mangrove_log"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "woodacacia"
+        ],
+        [
+            "woodbamboo"
+        ],
+        [
+            "woodbirch"
+        ],
+        [
+            "woodcherry"
+        ],
+        [
+            "woodcrimson"
+        ],
+        [
+            "woodjungle"
+        ],
+        [
+            "woodspruce"
+        ],
+        [
+            "woodwarped"
+        ],
+        [
+            "woodoak"
+        ],
+        [
+            "woodmangrove"
+        ],
+        [
+            "wooddarkoak"
+        ]
+    ],
+    "rewards": {
+        "experience": 50,
+        "function": "bettera:counter/adventure/advancement_up_challenge"
+    }
+}

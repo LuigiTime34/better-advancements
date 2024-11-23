@@ -1,0 +1,86 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_chestplate",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "translate": "bettera.advancement.story.plot_armor.title",
+            "fallback": "Plot Armor"
+        },
+        "description": {
+            "text": "Wear a full set of Protection IV armor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "bettera:story/anvil",
+    "criteria": {
+        "wearfullprotarmor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.head": {
+                            "items": "#minecraft:enchantable/head_armor",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "minecraft:protection",
+                                        "levels": 4
+                                    }
+                                ]
+                            }
+                        },
+                        "armor.chest": {
+                            "items": "#minecraft:enchantable/chest_armor",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "minecraft:protection",
+                                        "levels": 4
+                                    }
+                                ]
+                            }
+                            }
+                        },
+                        "armor.legs": {
+                            "items": "#minecraft:enchantable/leg_armor",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "minecraft:protection",
+                                        "levels": 4
+                                    }
+                                ]
+                            }
+                        },
+                        "armor.feet": {
+                            "items": "#minecraft:enchantable/foot_armor",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "minecraft:protection",
+                                        "levels": 4
+                                    }
+                                ]
+                            }
+                            }
+                        }
+                    }
+                }
+    },
+    "requirements": [
+        [
+            "wearfullprotarmor"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/story/advancement_up_challenge",
+        "experience": 50
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_pickaxe"
+        },
+        "title": {
+            "translate": "bettera.advancement.story.this_is_not_a_drill.title",
+            "fallback": "This Is Not a Drill"
+        },
+        "description": {
+            "text": "Obtain every pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:story/upgrade_tools",
+    "criteria": {
+        "woodenpick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe"
+                    }
+                ]
+            }
+        },
+        "stonepick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe"
+                    }
+                ]
+            }
+        },
+        "ironpick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_pickaxe"
+                    }
+                ]
+            }
+        },
+        "goldpick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe"
+                    }
+                ]
+            }
+        },
+        "diamondpick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe"
+                    }
+                ]
+            }
+        },
+        "netheritepick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "woodenpick"
+        ],
+        [
+            "stonepick"
+        ],
+        [
+            "ironpick"
+        ],
+        [
+            "goldpick"
+        ],
+        [
+            "diamondpick"
+        ],
+        [
+            "netheritepick"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/story/advancement_up_challenge",
+        "experience": 50
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ancient_debris"
+        },
+        "title": {
+            "translate": "advancements.nether.obtain_ancient_debris.title"
+        },
+        "description": {
+            "translate": "advancements.nether.obtain_ancient_debris.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:nether/root",
+    "criteria": {
+        "ancient_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ancient_debris"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ancient_debris"
+        ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "bettera:counter/nether/advancement_up_task"
+    }
+}

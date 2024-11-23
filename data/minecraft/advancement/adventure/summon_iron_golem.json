@@ -1,0 +1,43 @@
+{
+    "parent": "bettera:adventure/find_village",
+    "criteria": {
+        "summoned_golem": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:iron_golem"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:summoned_entity"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancements.adventure.summon_iron_golem.description"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "id": "minecraft:carved_pumpkin"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.adventure.summon_iron_golem.title"
+        }
+    },
+    "requirements": [
+        [
+            "summoned_golem"
+        ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    }
+}
