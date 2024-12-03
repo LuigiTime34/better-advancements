@@ -40,5 +40,4 @@ GLOBAL:
 - The text, color, and whether or not it is bold, italizied, or underlined can all be changed
 - Allows you to reset a player’s Advancement progress
 - Upon clicking, type in a Player’s username
-- If they are in the world currently it will reset it immediately
-- If not then it will reset the next time that player joins the world
+- If they are in the world currently it will reset it immediately, If not then it will reset the next time that player joins the world
