@@ -12,7 +12,6 @@ There are a few Advancements in this pack that require death in some way. If you
 This pack also has full support for the Resource Pack [Colored Advancements](https://modrinth.com/resourcepack/colored_advancements), which makes all advancements have their own color to go with them.
 
 
-
 ## Important Commands
 
 ```/trigger advancements```
