@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chiseled_tuff",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.adventure.minecraft_trials_edition.title"
+        },
+        "description": {
+            "translate": "advancements.adventure.minecraft_trials_edition.description"
+        }
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "minecraft_trials_edition": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:trial_chambers"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft_trials_edition"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    },
+    "sends_telemetry_event": true
+}

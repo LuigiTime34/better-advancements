@@ -1,0 +1,91 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:campfire",
+            "count": 1
+        },
+        "title": {
+            "translate": "bettera.advancement.husbandry.holy_smokes.title",
+            "fallback": "Holy Smokes!"
+        },
+        "description": {
+            "text": "Use a Haybale to increase a Campfire's smoke"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "task",
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "campfire": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:campfire",
+                        "properties": {}
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:hay_block"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "soul_campfire": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:soul_campfire",
+                        "properties": {}
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:hay_block"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "haybale": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetY": 1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:campfires"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "campfire",
+            "soul_campfire",
+            "haybale"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    },
+    "sends_telemetry_event": true
+}

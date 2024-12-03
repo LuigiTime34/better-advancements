@@ -1,0 +1,54 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:pitcher_pod"
+        },
+        "title": {
+            "translate": "advancements.husbandry.plant_any_sniffer_seed.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.plant_any_sniffer_seed.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:husbandry/feed_snifflet",
+    "criteria": {
+        "pitcher_pod": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:pitcher_crop",
+                        "properties": {}
+                    }
+                ]
+            }
+        },
+        "torchflower": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:torchflower_crop",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "torchflower",
+            "pitcher_pod"
+        ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    }
+}

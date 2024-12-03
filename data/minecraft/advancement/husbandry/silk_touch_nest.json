@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bee_nest"
+        },
+        "title": {
+            "translate": "advancements.husbandry.silk_touch_nest.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.silk_touch_nest.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "silk_touch_nest": {
+            "trigger": "minecraft:bee_nest_destroyed",
+            "conditions": {
+                "block": "minecraft:bee_nest",
+                "num_bees_inside": 3,
+                "item": {
+                    "predicates": {
+                        "enchantments": [
+                            {
+                                "enchantments": "minecraft:silk_touch",
+                                "levels": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "silk_touch_nest"
+        ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    }
+}

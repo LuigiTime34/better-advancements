@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:saddle"
+        },
+        "title": {
+            "translate": "bettera.advancement.husbandry.when_pigs_fly.title",
+            "fallback": "When Pigs Fly"
+        },
+        "description": {
+            "text": "Fly a Pig off a cliff"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    }
+}

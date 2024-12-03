@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "translate": "bettera.advancement.end.end_trade.title",
+            "fallback": "End Trader"
+        },
+        "description": {
+            "text": "Trade with a Villager in the End"
+        },
+        "icon": {
+            "id": "minecraft:emerald"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "tradeinend": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "location": {
+                        "dimension": "the_end"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tradeinend"
+        ]
+    ],
+    "parent": "minecraft:end/root",
+    "rewards": {
+        "experience": 100,
+        "function": "bettera:counter/end/advancement_up_challenge"
+    }
+}

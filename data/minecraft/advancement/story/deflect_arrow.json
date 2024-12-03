@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shield"
+        },
+        "title": {
+            "translate": "advancements.story.deflect_arrow.title"
+        },
+        "description": {
+            "translate": "advancements.story.deflect_arrow.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:story/obtain_armor",
+    "criteria": {
+        "deflected_projectile": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "minecraft:is_projectile",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "deflected_projectile"
+        ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "bettera:counter/story/advancement_up_task"
+    }
+}

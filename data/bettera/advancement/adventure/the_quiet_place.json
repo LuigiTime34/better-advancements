@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cracked_deepslate_bricks"
+        },
+        "title": {
+            "translate": "bettera.advancement.adventure.the_quiet_place.title",
+            "fallback": "The Quiet Place"
+        },
+        "description": {
+            "text": "Enter the Ancient City"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "enter_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:ancient_city"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_city"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    }
+}
