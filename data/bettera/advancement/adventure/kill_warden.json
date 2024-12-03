@@ -5,7 +5,7 @@
         },
         "title": {
             "translate": "bettera.advancement.adventure.kill_warden.title",
-            "fallback": "Not sure yet"
+            "fallback": "Unintentional Game Design"
         },
         "description": {
             "text": "Kill The Warden"
