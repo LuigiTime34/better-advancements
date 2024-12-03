@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_boots"
+        },
+        "title": {
+            "translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.title"
+        },
+        "description": {
+            "translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/sleep_in_bed",
+    "criteria": {
+        "walk_on_powder_snow_with_leather_boots": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "stepping_on": {
+                                "block": {
+                                    "blocks": [
+                                        "minecraft:powder_snow"
+                                    ]
+                                }
+                            },
+                            "equipment": {
+                                "feet": {
+                                    "items": [
+                                        "minecraft:leather_boots"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "walk_on_powder_snow_with_leather_boots"
+        ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    }
+}

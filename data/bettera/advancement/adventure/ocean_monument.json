@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:prismarine"
+        },
+        "title": {
+            "translate": "bettera.advancement.adventure.ocean_monument.title",
+            "fallback": "A Monumental Discovery"
+        },
+        "description": {
+            "text": "Find a Ocean Monument"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "task"
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "findmonument": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:monument"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "findmonument"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    }
+}

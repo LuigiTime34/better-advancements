@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:tadpole_bucket"
+        },
+        "title": {
+            "translate": "advancements.husbandry.tadpole_in_a_bucket.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.tadpole_in_a_bucket.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "tadpole_bucket": {
+            "trigger": "minecraft:filled_bucket",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:tadpole_bucket"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tadpole_bucket"
+        ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    }
+}

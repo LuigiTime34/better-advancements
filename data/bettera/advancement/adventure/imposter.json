@@ -1,0 +1,138 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:creeper_head"
+        },
+        "title": {
+            "translate": "bettera.advancement.adventure.imposter.title",
+            "fallback": "An Imposter Among Us"
+        },
+        "description": {
+            "text": "Kill a mob while wearing its own head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "criteria": {
+        "killcreeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": [
+                                "minecraft:creeper_head"
+                            ]
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:creeper"
+                }
+            }
+        },
+        "killzombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": [
+                                "minecraft:zombie_head"
+                            ]
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:zombie"
+                }
+            }
+        },
+        "killskeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": [
+                                "minecraft:skeleton_skull"
+                            ]
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:skeleton"
+                }
+            }
+        },
+        "killwitherskeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": [
+                                "minecraft:wither_skeleton_skull"
+                            ]
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:wither_skeleton"
+                }
+            }
+        },
+        "killpiglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": [
+                                "minecraft:piglin_head"
+                            ]
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:piglin"
+                }
+            }
+        },
+        "killenderdragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": [
+                                "minecraft:dragon_head"
+                            ]
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killcreeper",
+            "killzombie",
+            "killskeleton",
+            "killwitherskeleton",
+            "killpiglin",
+            "killenderdragon"
+        ]
+    ],
+    "rewards": {
+        "experience": 50,
+        "function": "bettera:counter/adventure/advancement_up_task"
+    },
+    "sends_telemetry_event": true
+}
