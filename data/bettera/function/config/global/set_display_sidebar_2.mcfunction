@@ -1,3 +1,0 @@
-scoreboard players set #ShowCounterSidebar advancement.config 2
-scoreboard objectives setdisplay sidebar advancement_count
-function bettera:config/global/global_settings
