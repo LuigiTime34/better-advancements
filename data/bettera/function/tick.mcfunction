@@ -8,9 +8,6 @@ execute as @a if predicate {"condition":"minecraft:entity_properties","entity":"
 # Thanks a Million Check
 execute as @a[advancements={bettera:adventure/thanks_a_million=false}] run function bettera:advancement/thanks_a_million_check
 
-# Maximum Firepower Score Reset
-execute as @a[advancements={bettera:end/maximum_firepower=false}] run scoreboard players reset @s advancements.use_firework
-
 # Trigger Checks
 execute as @a if score @s advancements matches 1.. run function bettera:get_advancement_count
 execute as @a[scores={advancement.config=1..}] run function bettera:config/personal/personal_settings
