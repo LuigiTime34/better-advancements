@@ -10,34 +10,5 @@ There are a few Advancements in this pack that require death in some way. If you
 ## Colored Advancements
 This pack also has full support for the Resource Pack [Colored Advancements](https://modrinth.com/resourcepack/colored_advancements), which makes all advancements have their own color to go with them.
 
-## Important Commands
-
-```/trigger advancements```
-Displays numerous info about you’re completed Advancements.
--How many you have completed total
--How many you have completed per tab
--How many you have left to complete to get all Advancements
-
-
-```/trigger advancements.config```
-Has two pages, Personal and Global.
-
-PERSONAL:
-- Allows you to change the sound that plays based on the frame of the Advancement (Task, Goal, Challenge)
-- The list of possible sounds are:
--  None (Default for Task and Goal)
--  Challenge Complete (Default for Challenge)
--  Ding
--  Level Up
--  Beacon Power Select
--  Amethyst Chime
--  Vault Open Shutter
-
-GLOBAL:
-- Allows you to change where the Advancement Count displays (Sidebar, Tab list, and Below Nametag)
-- Allows you to change whether or not Advancements get announced in the chat when someone completes one
-- Allows you to change the Display Name of the Advancement Counter
-- The text, color, and whether or not it is bold, italizied, or underlined can all be changed
-- Allows you to reset a player’s Advancement progress
-- Upon clicking, type in a Player’s username
-- If they are in the world currently it will reset it immediately, If not then it will reset the next time that player joins the world
+## Wiki
+For a list of all the Advancements added, and the commands provided in the Datapack, check out the [Wiki](https://github.com/LuigiTime34/better-advancements/wiki)
