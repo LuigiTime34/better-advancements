@@ -35,6 +35,11 @@ scoreboard objectives add advancements.distance_pig minecraft.custom:minecraft.p
 scoreboard objectives add advancements.distance_minecart minecraft.custom:minecraft.minecart_one_cm
 scoreboard objectives add advancements.total_distance_travelled dummy
 scoreboard objectives add advancements.use_firework minecraft.used:minecraft.firework_rocket
+data modify storage bettera:display_name name set value Advancements
+data modify storage bettera:display_name color set value white
+data modify storage bettera:display_name bold set value "false"
+data modify storage bettera:display_name italic set value "false"
+data modify storage bettera:display_name underline set value "false"
 schedule function bettera:advancement/maximum_firepower_reset 2t
 
 scoreboard objectives add sound_list dummy
