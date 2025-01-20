@@ -1,3 +1,5 @@
+![image (1)](https://github.com/user-attachments/assets/27dfad14-c624-4b9c-924c-943d34ef8811)
+
 # Better Advancements
 Are you a fan of Vanilla Advancements, but feel like something's missing? This pack adds 70+ brand new Advancements to your world in a way that's true to the base game. Perfect for both singleplayer and SMP worlds.
 
