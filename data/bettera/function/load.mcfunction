@@ -1,4 +1,3 @@
-gamerule announceAdvancements true
 scoreboard objectives add death_count deathCount
 scoreboard objectives add health health
 scoreboard objectives add air_time dummy
