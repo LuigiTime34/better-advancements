@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:creaking_heart"
+        },
+        "title": {
+            "translate": "bettera.advancement.adventure.kill_creaking.title",
+            "fallback": "Heartbroken"
+        },
+        "description": "Destroy a creaking heart",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "bettera:adventure/collect_resin",
+    "criteria": {
+        "destroy_heart": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "advancements.break_creaking_heart": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "destroy_heart"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    }
+}

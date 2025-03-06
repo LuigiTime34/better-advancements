@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:respawn_anchor"
+        },
+        "title": {
+            "translate": "bettera.advancement.end.interstellar_travel.title",
+            "fallback": "Interstellar Travel"
+        },
+        "description": "Travel directly to the Nether from the End",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:end/kill_dragon",
+    "criteria": {
+        "travel_to_nether_from_end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:the_end",
+                "to": "minecraft:the_nether"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "travel_to_nether_from_end"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/end/advancement_up_challenge",
+        "experience": 50
+    }
+}

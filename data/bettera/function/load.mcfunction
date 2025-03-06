@@ -34,6 +34,8 @@ scoreboard objectives add advancements.distance_pig minecraft.custom:minecraft.p
 scoreboard objectives add advancements.distance_minecart minecraft.custom:minecraft.minecart_one_cm
 scoreboard objectives add advancements.total_distance_travelled dummy
 scoreboard objectives add advancements.use_firework minecraft.used:minecraft.firework_rocket
+scoreboard objectives add advancements.horse_distance_travelled minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add advancements.break_creaking_heart minecraft.broken:creaking_heart
 data modify storage bettera:display_name name set value Advancements
 data modify storage bettera:display_name color set value white
 data modify storage bettera:display_name bold set value "false"

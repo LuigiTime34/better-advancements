@@ -1,0 +1,145 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:host_armor_trim_smithing_template"
+        },
+        "title": {
+            "translate": "bettera.advancement.adventure.trim_it_to_win_it.title",
+            "fallback": "Trim it to Win it"
+        },
+        "description": "Duplicate a Armor Trim",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/trim_with_any_armor_pattern",
+    "criteria": {
+        "duplicate_vex_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:vex_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_wild_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:wild_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_coast_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:coast_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_dune_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:dune_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_wayfinder_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:wayfinder_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_raiser_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:raiser_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_shaper_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:shaper_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_host_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:host_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_ward_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:ward_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_silence_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:silence_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_tide_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:tide_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_snout_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:snout_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_rib_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:rib_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_eye_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:eye_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_spire_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:spire_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_flow_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:flow_armor_trim_smithing_template"
+            }
+        },
+        "duplicate_bolt_trim": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:bolt_armor_trim_smithing_template"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "duplicate_vex_trim",
+            "duplicate_wild_trim",
+            "duplicate_coast_trim",
+            "duplicate_dune_trim",
+            "duplicate_wayfinder_trim",
+            "duplicate_raiser_trim",
+            "duplicate_shaper_trim",
+            "duplicate_host_trim",
+            "duplicate_ward_trim",
+            "duplicate_silence_trim",
+            "duplicate_tide_trim",
+            "duplicate_snout_trim",
+            "duplicate_rib_trim",
+            "duplicate_eye_trim",
+            "duplicate_spire_trim",
+            "duplicate_flow_trim",
+            "duplicate_bolt_trim"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    }
+}

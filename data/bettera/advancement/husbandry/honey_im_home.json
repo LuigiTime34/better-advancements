@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:beehive"
+        },
+        "title": {
+            "translate": "bettera.advancement.husbandry.honey_im_home.title",
+            "fallback": "Honey, I'm Home!"
+        },
+        "description": "Place down a bee's new home",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/safely_harvest_honey",
+    "criteria": {
+        "place_beehive": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:beehive"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "place_beehive"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    }
+}

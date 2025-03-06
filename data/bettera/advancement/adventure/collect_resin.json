@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:resin_clump"
+        },
+        "title": {
+            "translate": "bettera.advancement.adventure.collect_resin.title",
+            "fallback": "Sapped Out"
+        },
+        "description": "Collect some resin clumps",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "bettera:adventure/enter_pale_garden",
+    "criteria": {
+        "have_resin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:resin_clump"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "have_resin"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    }
+}

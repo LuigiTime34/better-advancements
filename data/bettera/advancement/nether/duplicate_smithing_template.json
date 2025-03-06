@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "title": {
+            "translate": "bettera.advancement.nether.duplicate_smithing_template.title",
+            "fallback": "A Mold for Me and You"
+        },
+        "description": "Duplicate a Netherite Smithing Template",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:nether/loot_bastion",
+    "criteria": {
+        "duplicate_template": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:netherite_upgrade_smithing_template"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "duplicate_template"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/nether/advancement_up_task"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:light_gray_wool"
+        },
+        "title": {
+            "translate": "bettera.advancement.husbandry.2_shades_of_gray.title",
+            "fallback": "Two Shades of Gray"
+        },
+        "description": "Breed a light and dark gray sheep",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:nether/loot_bastion",
+    "criteria": {
+        "breed_gray_sheep": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "parent": {
+                    "type": "minecraft:sheep",
+                    "type_specific": {
+                        "type": "minecraft:sheep",
+                        "color": "gray"
+                    }
+                },
+                "partner": {
+                    "type": "minecraft:sheep",
+                    "type_specific": {
+                        "type": "minecraft:sheep",
+                        "color": "light_gray"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "breed_gray_sheep"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    }
+}

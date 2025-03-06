@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:saddle"
+        },
+        "title": {
+            "translate": "bettera.advancement.husbandry.horsin_around.title",
+            "fallback": "Horsin' Around"
+        },
+        "description": {
+            "text": "Travel 1,000 blocks on a horse"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/tame_an_animal",
+    "criteria": {
+        "traveled_1000_blocks": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "advancements.horse_distance_travelled": {
+                                "min": 100000
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "traveled_1000_blocks"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/husbandry/advancement_up_task"
+    }
+}

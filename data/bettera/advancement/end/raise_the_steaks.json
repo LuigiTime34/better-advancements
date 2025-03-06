@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cooked_beef"
+        },
+        "title": {
+            "translate": "bettera.advancement.end.raise_the_steaks.title",
+            "fallback": "Raise the Steaks"
+        },
+        "description": "Eat a steak while levitating",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:end/find_end_city",
+    "criteria": {
+        "eat_while_levitating": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "effects": {
+                                "minecraft:levitation": {}
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": "minecraft:cooked_beef"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "eat_while_levitating"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/end/advancement_up_task"
+    }
+}

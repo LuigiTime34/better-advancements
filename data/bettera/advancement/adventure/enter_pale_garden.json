@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:pale_oak_leaves"
+        },
+        "title": {
+            "translate": "bettera.advancement.adventure.enter_pale_garden.title",
+            "fallback": "They are Watching..."
+        },
+        "description": "Enter the Pale Garden",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "enter_pale_garden": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:pale_garden"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_pale_garden"
+        ]
+    ],
+    "rewards": {
+        "function": "bettera:counter/adventure/advancement_up_task"
+    }
+}
