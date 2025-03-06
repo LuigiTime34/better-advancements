@@ -13,7 +13,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "minecraft:nether/loot_bastion",
+    "parent": "minecraft:husbandry/root",
     "criteria": {
         "breed_gray_sheep": {
             "trigger": "minecraft:bred_animals",
